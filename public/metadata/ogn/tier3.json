@@ -1,0 +1,12 @@
+{
+  "name": "OpenxAI Genesis NFT",
+  "description": "Tier 3 OpenxAI Genesis NFT",
+  "image": "https://erc721.openxai.org/image/ogn/tier3.png",
+  "attributes": [
+    {
+      "display_type": "number",
+      "trait_type": "Tier",
+      "value": 3
+    }
+  ]
+}
