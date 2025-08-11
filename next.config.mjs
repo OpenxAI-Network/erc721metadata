@@ -13,6 +13,10 @@ const nextConfig = {
       source: "/metadata/ogn/:tokenId(3\\w\*)",
       destination: "/metadata/ogn/tier3.json",
     },
+    {
+      source: "/metadata/OwnAIv1/:tokenId(\\d+)",
+      destination: "/metadata/OwnAIv1/default.json",
+    }
   ],
   reactStrictMode: true,
 }
